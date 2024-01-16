@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: "Cinzel", sans-serif;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.background-pattern {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  pointer-events: none;
+  background: linear-gradient(to top right, #191919, #161616);
+  opacity: 1; /* Ajusta la opacidad según tus preferencias */
+  animation: moveGradient 20s linear infinite; /* Ajusta la duración para hacerla más rápida */
+}
+
+.content {
+  z-index: 1;
+}
+
+@keyframes moveGradient {
+  0% {
+      background-position: 0% 0%;
+  }
+  100% {
+      background-position: 200% 200%;
+  }
+}
+
+
+.clock{
+  font-size: 4rem;
+  font-weight: bold;
+  background-color: #fcc021;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  margin: -280px 130px -20px 800px;
+  text-align: center;
+  border: 3px solid #ffd900;
+}
+
+.imgga{
+  margin: -29px 10px 100px -10px; 
+}
+
+.h3dnipost{
+  margin: -60px 910px 0px 260px;
+  color:  #ffd900 ;
+  font-family: 'Roboto Slab', serif;
+  font-size: 3.6rem;  
+
+}
+
+.h4dnitextpost{
+  
+  margin: 240px 0px 0px 580px;
+  color:  #fcc021;
+  font-family:'Roboto Slab', serif;
+  font-size: 1.8rem;  
+  text-align: center;
+}
+
+
+.h1v2{
+  margin: -100px -528px 0px -450px;
+  color:  white;
+  font-family: 'Kanit', sans-serif;
+  font-size: 6rem;
+  text-align: center;
+}
+
+.h3dni{
+  margin:  -60px -728px 0px 630px;
+  color:  #fcc021;
+  font-family: 'Roboto Slab', serif;
+  font-size: 2.7rem;
+}
+
+
+.h3alum{
+  margin: 3% 10px 0px 260px;
+  color:  #fcc021 ;
+  font-family: 'Roboto Slab', serif;
+  font-size: 3.6rem;
+}
+
+.h4alum{
+  margin: -60px 5% 0px 580px;
+  color:  white;
+  font-family: 'Oswald', sans-serif;
+  font-size:3rem;
+
+  
+}
+
+.h4alumb2{
+  margin: 10px 5% 0px 600px;
+  color:  white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.6rem;
+
+  
+}
+
+.h3gra{
+  margin:  20px -728px 0px 260px;
+  color: #fcc021;
+  font-family: 'Roboto Slab', serif;
+  font-size: 3.6rem;
+}
+
+.h4gra{
+  margin: -60px 1130px 0px 500px;
+  color: white ;
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.h3sec{
+  margin:  -65px 100px 0px 550px;
+  color: #fcc021;
+  font-family: 'Roboto Slab', serif;
+  font-size: 3.6rem;
+
+}
+
+.h4sec{
+  margin: -60px 600px 0px 840px;
+  color:  white ;
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+
+}
+
+.imgh{
+  margin: -310px -800px 0px 990px;
+  color:  #fcc021;
+  font-family: "Cinzel", sans-serif;
+  font-size: 2.4em;
+  border: 1px solid #fcc021;
+}
+
+
+
+
+
+
+
